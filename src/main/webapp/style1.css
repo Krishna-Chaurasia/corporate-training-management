@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+    background-image: url('imt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+p {
+	font-size: 28px;
+}
+.contact-form{
+	max-width: 400px;
+	margin:auto;
+	border-radius: 5px;
+	background: rgb(192, 192, 192);
+	padding: 20px;
+}
+
+input[type=text],select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 12px 0px;
+	display: inline-block;
+	border: 1px solid rgb(64, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=date]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 12px 0px;
+	display: inline-block;
+	border: 1px  rgb(64, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	width: 100%;
+	background: rgb(0, 64, 0);
+	color: wheat;
+	padding: 14px 20px;
+	margin: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+input[type=file]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 12px 0px;
+	display: inline-block;
+	border: 1px  rgb(64, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]:hover{
+	background: #000;
+}
+
+/* HEADING DESIGN */
+

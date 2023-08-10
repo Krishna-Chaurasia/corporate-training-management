@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('imt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+*{
+	margin: 0px;
+}
+
+
+.menu{
+	list-style: none;
+	background: rgb(0, 128, 192);
+	padding: 0px;
+	
+}
+
+.menu li {
+	display: inline-block;
+	position: relative;
+    width: 150px;
+   
+}
+.menu li a {
+	display: block;
+	padding: 20px 25px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+.menu li ul.dropdown li{
+	display: block;
+	
+}
+
+.menu li ul.dropdown{
+    width: 100%;
+    background: rgb(0, 128, 192);
+    position: absolute;	
+    z-index: 999;
+    display: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu li a:hover{
+	background:  rgb(128, 128, 192);
+}
+
+.menu li:hover ul.dropdown{
+	display: block;
+    width: 150px;
+}
+
+
+
+
+
+
